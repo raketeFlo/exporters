@@ -1,0 +1,17 @@
+{
+  "keepOriginalSvgs": false,
+  "componentFolder": "icons",
+  "customComponentTemplate": true,
+  "svgoOptions": {
+    "plugins": [
+      {
+        "name": "removeViewBox",
+        "active": false
+      },
+      {
+        "name": "removeTitle",
+        "active": true
+      }
+    ]
+  }
+}
