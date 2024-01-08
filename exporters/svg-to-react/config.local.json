@@ -13,9 +13,5 @@
         "active": true
       }
     ]
-  },
-  "replaceValues": {
-    "fill": "currentColor",
-    "stroke": "currentColor"
   }
 }
