@@ -15,7 +15,6 @@
     ]
   },
   "replaceValues": {
-    "fill": "currentColor",
-    "stroke": "currentColor"
+    "black": "currentColor"
   }
 }
