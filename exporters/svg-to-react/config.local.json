@@ -15,6 +15,11 @@
     ]
   },
   "replaceValues": {
-    "black": "currentColor"
+    "black": "currentColor",
+    "fill-rule": "fillRule",
+    "clip-rule": "clipRule",
+    "stroke-width": "strokeWidth",
+    "stroke-linecap": "strokeLinecap",
+    "stroke-linejoin": "strokeLinejoin"
   }
 }
