@@ -41,7 +41,6 @@ export const ${name} = (props) => (
 `;
 }
 
-/** Component template used for generation when javascript is enabled */
 export function sevComponentTemplate(svg: string, name: string): string {
   return `
 import { SVGProps } from 'react';
@@ -55,7 +54,7 @@ export default ${name};
 }
 
 /** Component template. Must contain {{svg}} and {{name}} tags */
-export function componentCustomTemplate(
+/* export function componentCustomTemplate(
   template: string,
   svg: string,
   name: string
@@ -66,7 +65,7 @@ export function componentCustomTemplate(
     throw new Error('Template must contain {{name}} tag');
 
   return template.replace('{{svg}}', svg).replace('{{name}}', name);
-}
+} */
 
 /** Index template used for generation when either typescript or javascript is enabled */
 export function indexTemplate(path: string, name: string): string {
