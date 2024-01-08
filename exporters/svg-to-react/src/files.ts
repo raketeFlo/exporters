@@ -62,7 +62,7 @@ export async function convertRenderedAssetsToIndexFile(
     content: renderedAssets
       .map((a) => {
         const destination = exportReactDefinitionDestination(a, exportConfiguration.componentFolder)
-        return `export * from "./${destination.path}/${destination.className}"`
+        return `export { default as Icon${destination.className} } from "./${destination.path}/${destination.className}"`
       })
       .join("\n"),
     relativePath: "./",
